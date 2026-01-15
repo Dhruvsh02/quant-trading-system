@@ -1,0 +1,12 @@
+Data Cleaning Summary
+
+- converted datetime columns to pandas datetime
+- sorted data chronologically
+- forward-filled missing values
+- removed duplicate timestamps
+- filtered NSE trading hours (09:15-15:30)
+- final data frequency: 5-minute
+
+Note:
+5-minute candles were derived by resampling 1-minute intraday data.
+Futures and options data were approximated due to public data limitations.
