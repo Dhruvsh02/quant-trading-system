@@ -17,36 +17,36 @@ Installation Instrcutions :-
 
 1. Clone the repositary
 
-git clone https://github.com/Dhruvsh02/quant-trading-system
-cd quant_trading_system
+- git clone https://github.com/Dhruvsh02/quant-trading-system
+- cd quant_trading_system
 
 2. Create Virtual Environment
 
-python -m venv venv
-source venv/bin/activate  # for macOS
+- python -m venv venv
+- source venv/bin/activate  # for macOS
 
 3. Install Dependencies
 
-pip install -r requirements.txt
-(this project is tested on python 3.10/3.11 and macOS users should use tenserflow-macos)
+- pip install -r requirements.txt
+- (this project is tested on python 3.10/3.11 and macOS users should use tenserflow-macos)
 
 How to Run the Project :- 
 
 Run Notebooks
 1. Open jupyter:
 
-jupyter notebook
+- jupyter notebook
 
 2. Run the Notebooks in the Order:
 
-01 - 01_data_acquisition.ipynb
-02 - 02_data_cleaning.ipynb
-03 - 03_data_merging.ipynb
-04 - 04_features_engineering.ipynb
-05 - 05_regime_detection.ipynb
-06 - 06_strategy_logic.ipynb
-07 - 07_ml_enhancement.ipynb
-08 - 08_outlier_analysis
+- 01 - 01_data_acquisition.ipynb
+- 02 - 02_data_cleaning.ipynb
+- 03 - 03_data_merging.ipynb
+- 04 - 04_features_engineering.ipynb
+- 05 - 05_regime_detection.ipynb
+- 06 - 06_strategy_logic.ipynb
+- 07 - 07_ml_enhancement.ipynb
+- 08 - 08_outlier_analysis
 
 Output is automattically saving into:-
 - data/
@@ -128,12 +128,12 @@ Baseline Strategy(regime + EMA)
 
 ML-Enhanced Strategy
 
-Strategy            Return
-Baseline            -5.86%
-XGBoost Filtered    -4.85% (imporved)
-LSTM Filtered       0.0% (no trades dow to low confidence)
+Strategy              Return
+- Baseline            -5.86%
+- XGBoost Filtered    -4.85% (imporved)
+- LSTM Filtered       0.0% (no trades dow to low confidence)
 
-##High-Performance Trade Insights 
+High-Performance Trade Insights 
 - Outliers identified using PnL Z-Score > 3
 - Outlier trades:
     - Occur mostly during early market hours
@@ -142,12 +142,12 @@ LSTM Filtered       0.0% (no trades dow to low confidence)
     - IV spread
     - Rolling volatility
     - Gamma exposure
-    
+
 These insights can be used to design better trade filters and risk controls.
 
 
 
-##Author
+Author
 
 **Dhruv Sharma**
-Quantitative Trading System 
+- Quantitative Trading System 
