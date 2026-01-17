@@ -1,0 +1,16 @@
+XGBoost:
+- n_estimators: 200
+- max_depth: 5
+- learning_rate : 0.05
+- subsample : 0.8
+- colsample_bytree: 0.8
+
+
+LSTM:
+- sequence length : 10
+- LSTM units : 64
+- Dropout: 0.3
+- Dense layers : 32 -> 1
+- optimizer : Adam
+- Loss : Binary Crossentropy
+

@@ -1,0 +1,4 @@
+Model,Total_Return
+Baseline,-0.05860973666903069
+XGBoost Filtered,-0.048505714623372005
+LSTM Filtered,0.0
