@@ -150,4 +150,5 @@ These insights can be used to design better trade filters and risk controls.
 Author
 
 **Dhruv Sharma**
-- Quantitative Trading System 
+
+Quantitative Trading System 
