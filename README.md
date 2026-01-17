@@ -133,7 +133,7 @@ Baseline            -5.86%
 XGBoost Filtered    -4.85% (imporved)
 LSTM Filtered       0.0% (no trades dow to low confidence)
 
-High-Performance Trade Insights 
+##High-Performance Trade Insights 
 - Outliers identified using PnL Z-Score > 3
 - Outlier trades:
     - Occur mostly during early market hours
@@ -142,11 +142,12 @@ High-Performance Trade Insights
     - IV spread
     - Rolling volatility
     - Gamma exposure
+    
 These insights can be used to design better trade filters and risk controls.
 
 
 
-Author
+##Author
 
-Dhruv Sharma
+**Dhruv Sharma**
 Quantitative Trading System 
